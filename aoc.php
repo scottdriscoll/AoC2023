@@ -2,8 +2,8 @@
 
 require_once(__DIR__ . '/vendor/autoload.php');
 
-use App\Aoc\Day1;
+use App\Aoc\Day2;
 
-$day1 = new Day1();
+$day2 = new Day2();
 
-echo $day1->run(file_get_contents(__DIR__ . '/data/day1.txt'), false) . PHP_EOL;
+echo $day2->run(file_get_contents(__DIR__ . '/data/day2.txt')) . PHP_EOL;
