@@ -6,4 +6,4 @@
 
 Create vendors with `$ composer install`
 
-Run test suite with `$ ./vendor/bin/phpunit --testdox tests`
+Run test suite with `$ composer run tests`

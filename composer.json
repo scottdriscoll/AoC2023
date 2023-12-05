@@ -18,6 +18,11 @@
             "email": "scott.driscoll08@gmail.com"
         }
     ],
+    "scripts": {
+        "test": [
+            "phpunit --testdox tests"
+        ]
+    },
     "require": {
         "php": ">=8.2"
     },
