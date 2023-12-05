@@ -4,7 +4,7 @@ namespace App\Aoc;
 
 class Day1
 {
-    public function part1(string $input): int
+    public function run(string $input): int
     {
         $total = 0;
 

@@ -10,4 +10,4 @@ $input = "
 
 ";
 
-echo $day1->part1($input) . PHP_EOL;
+echo $day1->run($input) . PHP_EOL;
