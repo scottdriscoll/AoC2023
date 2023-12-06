@@ -29,5 +29,7 @@ class Day3Test extends TestCase
         yield 'part 1 try 10' => [62, '*62.61', false];
         yield 'part 1 try 11' => [60, '*30.30@', false];
         yield 'part 1 sample' => [4361, file_get_contents(__DIR__ . '/fixtures/day3/part1.txt'), false];
+        yield 'part 2 try 1' => [451490, "......755.\n...$.*....\n.664.598..", true];
+        yield 'part 2 sample' => [467835, file_get_contents(__DIR__ . '/fixtures/day3/part2.txt'), true];
     }
 }
