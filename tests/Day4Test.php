@@ -18,6 +18,8 @@ class Day4Test extends TestCase
     public static function provideData(): iterable
     {
         yield 'part 1 try 1' => [8, 'Card 1: 41 48 83 86 17 | 83 86  6 31 17  9 48 53', false];
+        yield 'part    1 try 2' => [8, 'Card 1: 41 48    83 86 17 | 83 86  6 31 17  9 48 53', false];
         yield 'part 1 sample' => [13, file_get_contents(__DIR__ . '/fixtures/day4/part1.txt'), false];
+        yield 'part 2 sample' => [30, file_get_contents(__DIR__ . '/fixtures/day4/part2.txt'), true];
     }
 }
