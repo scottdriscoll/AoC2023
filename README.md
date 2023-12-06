@@ -8,4 +8,4 @@
 
 Create vendors with `$ composer install`
 
-Run test suite with `$ composer run tests`
+Run test suite with `$ composer run test`

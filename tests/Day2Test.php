@@ -11,8 +11,8 @@ class Day2Test extends TestCase
     #[DataProvider('provideData')]
     public function testRun(int $expected, string $input, bool $part2)
     {
-        $day1 = new Day2();
-        $this->assertEquals($expected, $day1->run($input, $part2));
+        $day = new Day2();
+        $this->assertEquals($expected, $day->run($input, $part2));
     }
 
     public static function provideData(): iterable
